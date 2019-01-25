@@ -1,0 +1,73 @@
+body {
+    color: white;
+    background-color: gray;
+    left: 25%;
+    position: relative;
+    border: none;
+    width: max-content;
+    margin: 0px;
+}
+
+h1 {
+	position: relative;
+    left: 5%;
+    margin-right: 0px;
+    width: max-content;
+}
+
+p {
+   max-width: 300px;
+   overflow-x: auto;
+}
+
+table {
+    border: dotted;
+    border-color: red;
+    width: 75%;
+    position: relative;
+	right: 4%;
+	border-spacing: 0px;
+}
+
+td {
+	border: solid;
+	border-color: #00000078;
+    border-width: 1px;
+    border-bottom: none;
+    border-left: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+th {
+	border-right: solid 1px #00000078;
+	text-align: center;
+}
+
+img {
+	width: 300px;
+	height: 300px;
+}
+
+#myCarousel {
+	left: 15%;
+    width: max-content;
+    margin: 0px;
+}
+
+#pause {
+	outline-width: 0px;
+	position: relative;
+	left: 29%;
+}
+
+#rand {
+	background-color: red;
+	color: blue;
+}
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
